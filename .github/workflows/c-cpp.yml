@@ -15,7 +15,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: gap.c
       run: ./gap.c
-    - name: make
+    - name: make 
       run: make
     - name: make check
       run: make check
